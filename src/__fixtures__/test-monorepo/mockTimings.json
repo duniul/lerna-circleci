@@ -1,0 +1,46 @@
+{
+  "tests": [
+    {
+      "classname": "test:lerna-circleci-test-package-1",
+      "file": null,
+      "name": "test:lerna-circleci-test-package-1",
+      "result": "success",
+      "run_time": 100.0,
+      "message": null,
+      "source": "unknown",
+      "source_type": "unknown"
+    },
+    {
+      "classname": "test:lerna-circleci-test-package-2",
+      "file": null,
+      "name": "test:lerna-circleci-test-package-2",
+      "result": "success",
+      "run_time": 20.5,
+      "message": null,
+      "source": "unknown",
+      "source_type": "unknown"
+    },
+    {
+      "classname": "test:lerna-circleci-test-package-3",
+      "file": null,
+      "name": "test:lerna-circleci-test-package-3",
+      "result": "success",
+      "run_time": 80.0,
+      "message": null,
+      "source": "unknown",
+      "source_type": "unknown"
+    },
+    {
+      "classname": "test:lerna-circleci-test-package-4",
+      "file": null,
+      "name": "test:lerna-circleci-test-package-4",
+      "result": "success",
+      "run_time": 40.0,
+      "message": null,
+      "source": "unknown",
+      "source_type": "unknown"
+    }
+  ],
+  "files": ["results.xml"],
+  "exceptions": []
+}

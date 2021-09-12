@@ -1,0 +1,5 @@
+lerna-circleci-test-package-1
+lerna-circleci-test-package-2
+lerna-circleci-test-package-3
+lerna-circleci-test-package-4 (PRIVATE)
+lerna-circleci-test-package-5 (PRIVATE)

@@ -1,0 +1,9 @@
+{
+  "lerna-circleci-test-package-1": [
+    "test-package-2"
+  ],
+  "lerna-circleci-test-package-2": [],
+  "lerna-circleci-test-package-3": [],
+  "lerna-circleci-test-package-4": [],
+  "lerna-circleci-test-package-5": []
+}

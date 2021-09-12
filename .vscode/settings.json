@@ -1,0 +1,22 @@
+{
+  // Insert correct new lines and remove redundant whitespace to keep POSIX-compliant
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Ensure we use the same formatter for files
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "off", // Wrapping should be done with line breaks
+    "files.trimTrailingWhitespace": false // Markdown uses trailing whitespace for line breaks
+  },
+}

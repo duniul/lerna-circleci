@@ -1,0 +1,5 @@
+/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-1:lerna-circleci-test-package-1:0.0.1
+/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-2:lerna-circleci-test-package-2:0.0.1
+/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-3:lerna-circleci-test-package-3:0.0.1
+/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-4:lerna-circleci-test-package-4:0.0.1:PRIVATE
+/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-5:lerna-circleci-test-package-5:0.0.1:PRIVATE

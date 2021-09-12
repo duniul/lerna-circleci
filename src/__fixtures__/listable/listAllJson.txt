@@ -1,0 +1,32 @@
+[
+  {
+    "name": "lerna-circleci-test-package-1",
+    "version": "0.0.1",
+    "private": false,
+    "location": "/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-1"
+  },
+  {
+    "name": "lerna-circleci-test-package-2",
+    "version": "0.0.1",
+    "private": false,
+    "location": "/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-2"
+  },
+  {
+    "name": "lerna-circleci-test-package-3",
+    "version": "0.0.1",
+    "private": false,
+    "location": "/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-3"
+  },
+  {
+    "name": "lerna-circleci-test-package-4",
+    "version": "0.0.1",
+    "private": true,
+    "location": "/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-4"
+  },
+  {
+    "name": "lerna-circleci-test-package-5",
+    "version": "0.0.1",
+    "private": true,
+    "location": "/lerna-circleci/src/__fixtures__/test-monorepo/packages/test-package-5"
+  }
+]

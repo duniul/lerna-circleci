@@ -1,0 +1,46 @@
+{
+  "name": "lerna-circleci",
+  "version": "1.0.0",
+  "description": "Lets Lerna monorepos fully utilize CircleCI features like parallelism and splitting tasks by timings.",
+  "author": "Daniel Grefberg <hello@danielgrefberg.com>",
+  "license": "ISC",
+  "packageManager": "yarn@3.0.1",
+  "engines": {
+    "node": ">=12"
+  },
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "cli": "node ./bin/cli.js",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "jest"
+  },
+  "files": [
+    "src",
+    "!**/__tests__/**",
+    "!**/*.test.*"
+  ],
+  "dependencies": {
+    "@lerna/changed": "^4.0.0",
+    "@lerna/cli": "^4.0.0",
+    "@lerna/exec": "^4.0.0",
+    "@lerna/filter-options": "^4.0.0",
+    "@lerna/list": "^4.0.0",
+    "@lerna/listable": "^4.0.0",
+    "@lerna/run": "^4.0.0",
+    "chalk": "^4.0.0",
+    "lerna": "^4.0.0",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "27.0.2",
+    "eslint": "8.0.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jest": "25.2.2",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "27.2.5",
+    "prettier": "2.4.1",
+    "tmp-promise": "3.0.2"
+  }
+}

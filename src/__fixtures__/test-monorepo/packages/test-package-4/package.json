@@ -1,0 +1,10 @@
+{
+  "name": "lerna-circleci-test-package-4",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Test package for lerna-circleci tests!",
+  "author": "Daniel Grefberg <hello@danielgrefberg.com>",
+  "scripts": {
+    "test": "echo 'Ran test command in test-package-4'"
+  }
+}
