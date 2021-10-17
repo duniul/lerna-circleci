@@ -4,7 +4,7 @@
   "description": "Lets Lerna monorepos fully utilize CircleCI features like parallelism and splitting tasks by timings.",
   "author": "Daniel Grefberg <hello@danielgrefberg.com>",
   "license": "ISC",
-  "packageManager": "yarn@3.0.1",
+  "packageManager": "yarn@3.0.2",
   "engines": {
     "node": ">=12"
   },
