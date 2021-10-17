@@ -11,8 +11,6 @@
   "bin": "./bin/cli.js",
   "scripts": {
     "cli": "node ./bin/cli.js",
-    "build": "tsc",
-    "dev": "tsc -w",
     "test": "jest"
   },
   "files": [
