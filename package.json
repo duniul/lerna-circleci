@@ -8,6 +8,12 @@
   "engines": {
     "node": ">=12"
   },
+  "keywords": [
+    "circleci",
+    "ci",
+    "lerna",
+    "parallelism"
+  ],
   "bin": "./bin/cli.js",
   "scripts": {
     "cli": "node ./bin/cli.js",
